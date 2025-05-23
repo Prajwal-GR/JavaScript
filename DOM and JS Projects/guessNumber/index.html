@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            background-color: antiquewhite;
+            
+        }
+        input{
+            display: block;
+            margin-bottom: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess the Number</h1>
+    <form action="" class="form">
+        <label for="guessField" id='guess'>Guess a Number</label>
+        <br>
+        <input type="text" name="guessField" id="guessField">
+        <br>
+        <input type="submit" id="submitBtn" value="Submit Guess" class="guessSubmit">
+    </form>
+    
+    <div class="resultParas">
+        <p>prev Guess : <span class="guesses"></span></p>
+        <p>Remaining Guess : <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script src="indnex.js"></script>
+</body>
+</html>
